@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(13, 13, 78);
+}
+body > h1{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+div{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    background-color: rgb(240, 240, 240);
+    height:100vh;
+    padding: 25px;
+}
