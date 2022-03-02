@@ -1,0 +1,44 @@
+body{
+    background: url(..//images/wallpaper-php.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+div::before{
+    content: "Curso de PHP para Iniciantes - by Gustavo Guanabara";
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #273747;
+    color: #ffffff;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+div{
+    background-color: #ffffffcc;  
+    margin-top: 100px;  
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    width: 550px;
+    min-height: 300px;
+    padding: 10px;
+}
+.botao{
+    background-color: #273747;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #000407;
+}
+span.foco{
+    font-weight: bold;    
+    color: #7e050c;
+}
